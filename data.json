@@ -1,0 +1,142 @@
+{
+  "GREETING": [
+    {"question": "Hello",            "response": "Hi! How can I help you?"},
+    {"question": "Hey",              "response": "Hey there! Need assistance?"},
+    {"question": "Hi",               "response": "Hello! How can I assist you today?"},
+    {"question": "Good morning",     "response": "Good morning! What can I do for you?"},
+    {"question": "Good afternoon",   "response": "Good afternoon! How may I help?"},
+    {"question": "Good evening",     "response": "Good evening! How can I be of service?"}
+  ],
+
+  "SMALL_TALK": [
+    {"question": "How are you?",          "response": "I'm just a chatbot, but I'm here to help!"},
+    {"question": "What's your name?",     "response": "I'm an AI chatbot built to assist you."},
+    {"question": "Who created you?",      "response": "I was created by a developer using Python and Flask."},
+    {"question": "Tell me a joke",        "response": "Why do programmers prefer dark mode? Because light attracts bugs!"},
+    {"question": "Thank you",             "response": "You're welcome! Happy to help."},
+    {"question": "Thanks a lot",          "response": "Anytime! Let me know if you need anything else."},
+    {"question": "Are you a robot?",      "response": "I'm an AI program, so you could say that!"}
+  ],
+
+  "TECHNOLOGY": [
+    {"question": "What is Flask?",                    "response": "Flask is a Python micro‑framework for web applications."},
+    {"question": "How do I install Flask?",           "response": "Run: pip install flask"},
+    {"question": "What is FastAPI?",                  "response": "FastAPI is a high‑performance API framework for Python."},
+    {"question": "Flask vs FastAPI?",                 "response": "Flask is simple & synchronous; FastAPI is modern, async, and faster."},
+    {"question": "What is SQLite?",                   "response": "SQLite is a lightweight database that works without a server."},
+    {"question": "Install SQLite?",                   "response": "SQLite comes built‑in with Python, so no extra install is needed."},
+    {"question": "What is MongoDB?",                  "response": "MongoDB is a NoSQL document database for scalable apps."},
+    {"question": "SQL vs NoSQL?",                     "response": "SQL stores data in tables; NoSQL is more flexible and schema‑less."},
+    {"question": "Start learning Python?",            "response": "Begin with basics like variables, loops, and functions. Try small scripts."},
+    {"question": "What is an API?",                   "response": "An API lets applications talk to each other using predefined rules."}
+  ],
+
+  "PROGRAMMING": [
+    {"question": "What is a variable?",               "response": "A named storage location that holds a value in a program."},
+    {"question": "Difference between list and tuple?", "response": "Lists are mutable; tuples are immutable."},
+    {"question": "What is a class?",                  "response": "A blueprint for creating objects (instances) in OOP."},
+    {"question": "Explain inheritance",               "response": "Inheritance lets a class reuse code from another class."},
+    {"question": "What is recursion?",                "response": "A function calling itself to solve smaller instances of a problem."},
+    {"question": "What is Git?",                      "response": "Git is a version‑control system for tracking code changes."},
+    {"question": "Git clone command?",                "response": "git clone <repo_url>"},
+    {"question": "What is a loop?",                   "response": "A way to repeat a block of code multiple times."},
+    {"question": "For loop vs while loop?",           "response": "For loops iterate over sequences; while loops run until a condition is false."},
+    {"question": "What is a lambda function?",        "response": "An anonymous, single‑expression function."}
+  ],
+
+  "MACHINE_LEARNING": [
+    {"question": "What is machine learning?",         "response": "ML is teaching computers to learn patterns from data."},
+    {"question": "What is supervised learning?",      "response": "Training with labeled data to predict outcomes."},
+    {"question": "What is unsupervised learning?",    "response": "Finding hidden patterns in unlabeled data."},
+    {"question": "What is overfitting?",              "response": "When a model learns noise and performs poorly on new data."},
+    {"question": "How to prevent overfitting?",       "response": "Use more data, regularization, or cross‑validation."},
+    {"question": "What is a neural network?",         "response": "A model inspired by the human brain, composed of layers of neurons."},
+    {"question": "Explain gradient descent",          "response": "An optimization algorithm that minimizes a loss function."},
+    {"question": "What is scikit‑learn?",             "response": "A popular Python library for ML algorithms."},
+    {"question": "Difference between accuracy and precision?", "response": "Accuracy is overall correctness; precision is correctness on positive predictions."},
+    {"question": "What is a confusion matrix?",       "response": "A table showing true vs predicted classifications."}
+  ],
+
+  "DATABASES": [
+    {"question": "What is a primary key?",            "response": "A unique identifier for each record in a table."},
+    {"question": "What is a foreign key?",            "response": "A column that links to a primary key in another table."},
+    {"question": "What is indexing?",                 "response": "A technique to speed up data retrieval in a database."},
+    {"question": "What is normalization?",            "response": "Organizing data to reduce redundancy."},
+    {"question": "Explain ACID properties",           "response": "Atomicity, Consistency, Isolation, Durability for reliable transactions."},
+    {"question": "SQL JOIN types?",                   "response": "Inner, Left, Right, and Full joins combine rows from tables."},
+    {"question": "What is PostgreSQL?",               "response": "An advanced open‑source SQL database."},
+    {"question": "Install PostgreSQL?",               "response": "Download from postgresql.org or use a package manager like apt or brew."},
+    {"question": "What is Redis?",                    "response": "An in‑memory key‑value store, often used as a cache."}
+  ],
+
+  "AWS_CLOUD": [
+    {"question": "What is AWS?",                      "response": "Amazon Web Services: a cloud computing platform."},
+    {"question": "What is EC2?",                      "response": "Elastic Compute Cloud provides resizable virtual servers."},
+    {"question": "Launch EC2 instance?",              "response": "Use the AWS console or CLI: aws ec2 run‑instances ..."},
+    {"question": "What is S3?",                       "response": "Simple Storage Service for object storage."},
+    {"question": "S3 storage classes?",               "response": "Standard, Intelligent‑Tiering, Glacier, etc."},
+    {"question": "What is IAM?",                      "response": "Identity and Access Management for user permissions."},
+    {"question": "What is Lambda?",                   "response": "A serverless compute service that runs code on demand."},
+    {"question": "Difference between RDS and DynamoDB?", "response": "RDS is relational; DynamoDB is NoSQL and managed."},
+    {"question": "What is CloudFront?",               "response": "A content delivery network for faster global content."},
+    {"question": "AWS CLI install?",                  "response": "pip install awscli or use your OS package manager."}
+  ],
+
+  "REACT": [
+    {"question": "What is React?",                    "response": "A JavaScript library for building user interfaces."},
+    {"question": "Create React app?",                 "response": "npx create‑react‑app myApp"},
+    {"question": "What is a component?",              "response": "Reusable, independent piece of UI in React."},
+    {"question": "Functional vs class components?",   "response": "Functional are simpler; class components support lifecycle methods."},
+    {"question": "What are hooks?",                   "response": "Functions like useState and useEffect to use state & lifecycle in functional components."},
+    {"question": "What is JSX?",                      "response": "A syntax extension for JavaScript that looks like HTML."},
+    {"question": "State vs props?",                   "response": "State is internal; props are inputs from a parent component."},
+    {"question": "What is Redux?",                    "response": "A state management library often used with React."},
+    {"question": "React fragment?",                   "response": "<>...</> lets you group children without extra nodes."},
+    {"question": "React router?",                     "response": "A library to handle client‑side routing in React apps."}
+  ],
+
+  "BLOGGING": [
+    {"question": "How do I start a blog?",            "response": "Choose a niche, pick a platform like WordPress, and start writing."},
+    {"question": "Best blogging platforms?",          "response": "WordPress, Blogger, Medium, or custom sites with React."},
+    {"question": "Increase blog traffic?",            "response": "Share posts on social media, optimize for SEO, and post consistently."},
+    {"question": "What is SEO?",                      "response": "Search Engine Optimization: improving visibility in search results."},
+    {"question": "Keyword research tools?",           "response": "Google Keyword Planner, Ahrefs, SEMrush."},
+    {"question": "How often should I post?",          "response": "Aim for at least one quality post per week."},
+    {"question": "Monetize a blog?",                  "response": "Ads, affiliate links, sponsored posts, or selling products."},
+    {"question": "What is a niche?",                  "response": "A focused topic area your blog specializes in."}
+  ],
+
+  "GENERAL_KNOWLEDGE": [
+    {"question": "Who founded Microsoft?",            "response": "Bill Gates and Paul Allen founded Microsoft."},
+    {"question": "Capital of India?",                 "response": "New Delhi."},
+    {"question": "Who invented the internet?",        "response": "Vinton Cerf and Bob Kahn developed the core protocols."},
+    {"question": "Largest planet?",                   "response": "Jupiter is the largest planet in our solar system."},
+    {"question": "Speed of light?",                   "response": "Approximately 299,792 km per second."},
+    {"question": "Highest mountain?",                 "response": "Mount Everest (8,849 m)."},
+    {"question": "Deepest ocean trench?",             "response": "The Mariana Trench."},
+    {"question": "Who wrote 'Hamlet'?",               "response": "William Shakespeare."},
+    {"question": "Human body's largest organ?",       "response": "The skin."},
+    {"question": "First man on the Moon?",            "response": "Neil Armstrong, July 1969."}
+  ],
+
+  "CAREER": [
+    {"question": "How to write a resume?",            "response": "Keep it concise, highlight achievements, tailor to the job."},
+    {"question": "Prepare for a job interview?",      "response": "Research the company, practice common questions, dress professionally."},
+    {"question": "What is networking?",               "response": "Building professional relationships to exchange information and opportunities."},
+    {"question": "Upskill suggestions?",              "response": "Take online courses, attend workshops, read industry blogs."},
+    {"question": "LinkedIn profile tips?",            "response": "Use a professional photo, detailed headline, and showcase achievements."},
+    {"question": "Cover letter purpose?",             "response": "Introduce yourself, explain interest, and highlight fit for the role."},
+    {"question": "What is freelancing?",              "response": "Self‑employed work for multiple clients, often remote."},
+    {"question": "Difference between CV and resume?", "response": "CV is detailed academic history; resume is brief job‑focused summary."},
+    {"question": "Thank‑you email after interview?",  "response": "Yes—express gratitude and reiterate interest within 24 hours."},
+    {"question": "Remote work benefits?",             "response": "Flexibility, no commute, wider job opportunities."}
+  ],
+
+  "CYBERSECURITY": [
+    {"question": "What is phishing?",                 "response": "A fraudulent attempt to obtain sensitive information via email or messaging."},
+    {"question": "What is 2FA?",                      "response": "Two‑factor authentication adds an extra layer of security to logins."},
+    {"question": "Difference between virus and malware?", "response": "A virus is a type of malware that replicates by infecting files."},
+    {"question": "What is a firewall?",               "response": "A security system that monitors and controls network traffic."},
+    {"question": "Strong password tips?",             "response": "Use 12+ characters with a mix of letters, numbers, and symbols."}
+  ]
+}
